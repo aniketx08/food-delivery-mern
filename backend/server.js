@@ -14,7 +14,7 @@
   //middlewares
   app.use(express.json());
   app.use(cors({
-    origin: ['*','https://food-delivery-mern-ztia.onrender.com','http://localhost:5173', 'http://localhost:5174'],
+    origin: ['*','https://food-delivery-mern-iota.vercel.app/','https://food-delivery-mern-user.vercel.app/','http://localhost:5173', 'http://localhost:5174'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
   }));
